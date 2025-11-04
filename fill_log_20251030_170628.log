@@ -1,0 +1,96 @@
+2025-10-30 17:06:28,962 - INFO - Loaded HTML and JSON successfully.
+2025-10-30 17:06:28,962 - ERROR - Error calling LLM: 1 validation error for ChatRequest
+model
+  String should have at least 1 character [type=string_too_short, input_value='', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_too_short
+2025-10-30 17:07:17,692 - INFO - Loaded HTML and JSON successfully.
+2025-10-30 17:08:35,381 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-30 17:08:35,383 - INFO - LLM successfully generated filled HTML.
+2025-10-30 17:08:35,385 - INFO - Filled HTML saved to filled_output.html.
+2025-10-30 17:08:35,386 - INFO - Log file saved to fill_log_20251030_170717.log.
+2025-10-30 17:18:29,347 - INFO - \U0001f680 Starting JSON \u2192 HTML form filling process...
+2025-10-30 17:18:29,357 - INFO - \u2705 Loaded HTML template and JSON extracted data.
+2025-10-30 17:18:29,361 - INFO - \u23f1\ufe0f Step 'Load files' completed in 0.01 seconds.
+
+2025-10-30 17:18:29,362 - INFO - \u23f1\ufe0f Step 'Prompt prepared' completed in 0.00 seconds.
+
+2025-10-30 17:18:29,363 - INFO - \U0001f916 Sending HTML + JSON to LLM for filling... (this may take time depending on model size)
+2025-10-30 17:18:47,545 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-30 17:18:47,546 - INFO - \u2705 LLM successfully filled the HTML form.
+2025-10-30 17:18:47,546 - INFO - \u23f1\ufe0f Step 'LLM filling' completed in 18.18 seconds.
+
+2025-10-30 17:18:47,547 - INFO - \U0001f4be Filled HTML saved to filled_passport_form.html
+2025-10-30 17:18:47,548 - INFO - \u23f1\ufe0f Step 'Save output' completed in 0.00 seconds.
+
+2025-10-30 17:18:47,548 - INFO - \u2705 JSON data successfully filled into HTML form.
+2025-10-30 17:18:47,549 - INFO - \U0001f4c1 Output HTML: filled_passport_form.html
+2025-10-30 17:18:47,549 - INFO - \U0001fab5 Logs: fill_html_log_20251030_171829.log
+2025-10-30 17:22:21,786 - INFO - \U0001f680 Starting JSON \u2192 HTML form filling process...
+2025-10-30 17:22:21,787 - INFO - \u2705 Loaded HTML template and JSON extracted data.
+2025-10-30 17:22:21,788 - INFO - \u23f1\ufe0f Step 'Load files' completed in 0.00 seconds.
+
+2025-10-30 17:22:21,790 - INFO - \u23f1\ufe0f Step 'Prompt prepared' completed in 0.00 seconds.
+
+2025-10-30 17:22:21,791 - INFO - \U0001f916 Sending HTML + JSON to LLM for exact field filling...
+2025-10-30 17:23:00,675 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-30 17:23:00,677 - INFO - \u2705 LLM successfully generated filled HTML.
+2025-10-30 17:23:00,678 - INFO - \u23f1\ufe0f Step 'LLM filling' completed in 38.89 seconds.
+
+2025-10-30 17:23:00,697 - INFO - \U0001f4be Filled HTML saved to filled_passport_form.html
+2025-10-30 17:23:00,698 - INFO - \u23f1\ufe0f Step 'Save output' completed in 0.02 seconds.
+
+2025-10-30 17:23:00,699 - INFO - \u2705 JSON data successfully filled into HTML form.
+2025-10-30 17:23:00,700 - INFO - \U0001f4c1 Output HTML: filled_passport_form.html
+2025-10-30 17:23:00,701 - INFO - \U0001fab5 Logs: html_fill_log_20251030_172221.log
+2025-10-30 17:32:56,925 - INFO - \U0001f680 Starting HTML form-filling process...
+2025-10-30 17:32:56,927 - INFO - \u2705 HTML and JSON files loaded successfully.
+2025-10-30 17:32:56,928 - INFO - \U0001f9fe Extracted 11 key-value pairs from JSON.
+2025-10-30 17:32:56,943 - INFO - \U0001f4cc Key: ID Number / \u0631\u0642\u0645 \u0627\u0644\u0647\u0648\u064a\u0629 \u2192 Value: 784199787632597
+2025-10-30 17:32:56,944 - INFO - \U0001f4cc Key: File No / \u0631\u0642\u0645 \u0627\u0644\u0645\u0644\u0641 \u2192 Value: 201/2023/7/663922
+2025-10-30 17:32:56,945 - INFO - \U0001f4cc Key: Passport No / \u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0632 \u2192 Value: VT1337002
+2025-10-30 17:32:56,945 - INFO - \U0001f4cc Key: Name / \u0627\u0644\u0627\u0633\u0645 \u2192 Value: MUHAMMAD AMIR IQBAL MUHAMMAD I / \u0645\u062d\u0645\u062f \u0627\u0645\u064a\u0631 \u0627\u0642\u0628\u0627\u0644 \u0645\u062d\u0645\u062f \u0627\u0642\u0628\u0627\u0644
+2025-10-30 17:32:56,946 - INFO - \U0001f4cc Key: Profession / \u0627\u0644\u0645\u0647\u0646\u0629 \u2192 Value: PARTNER / \u0634\u0631\u064a\u0643
+2025-10-30 17:32:56,947 - INFO - \U0001f4cc Key: Employer / \u0635\u0627\u062d\u0628 \u0627\u0644\u0639\u0645\u0644 \u2192 Value: H S P INTERNATIONAL FOODSTUFF TRADING L.L.C / \u0627\u062a\u0634 \u0627\u0633 \u0628\u064a \u0627\u0646\u062a\u0631\u0646\u0627\u0634\u0648\u0646\u0627\u0644 \u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0645\u0648\u0627\u062f \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629 \u0634 \u0630 \u0645 \u0645
+2025-10-30 17:32:56,947 - INFO - \U0001f4cc Key: Place of Issue / \u062c\u0647\u0629 \u0627\u0644\u0625\u0635\u062f\u0627\u0631 \u2192 Value: \u062f\u0628\u064a
+2025-10-30 17:32:56,948 - INFO - \U0001f4cc Key: Issue Date / \u062a\u0627\u0631\u064a\u062e \u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0625\u0642\u0627\u0645\u0629 \u2192 Value: 15/11/2023
+2025-10-30 17:32:56,949 - INFO - \U0001f4cc Key: Expiry Date / \u062a\u0627\u0631\u064a\u062e \u0625\u0646\u062a\u0647\u0627\u0621 \u0627\u0644\u0625\u0642\u0627\u0645\u0629 \u2192 Value: 14/11/2025
+2025-10-30 17:32:56,949 - INFO - \U0001f4cc Key: Country / \u0627\u0644\u062f\u0648\u0644\u0629 \u2192 Value: UNITED ARAB EMIRATES / \u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629
+2025-10-30 17:32:56,950 - INFO - \U0001f4cc Key: Type / \u0646\u0648\u0639 \u0627\u0644\u0625\u0642\u0627\u0645\u0629 \u2192 Value: RESIDENCE / \u0625\u0642\u0627\u0645\u0629
+2025-10-30 17:32:56,951 - INFO - \U0001f9e0 Prompt prepared for LLM.
+2025-10-30 17:33:13,653 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-30 17:33:13,655 - INFO - \u2705 LLM completed HTML filling in 16.70 seconds.
+2025-10-30 17:33:13,656 - INFO - \U0001f4be Filled HTML saved to filled_output.html
+2025-10-30 17:33:13,657 - INFO - \U0001f50d Starting post-validation of filled HTML fields.
+2025-10-30 17:33:13,658 - WARNING - \u26a0\ufe0f Field 'ID Number / \u0631\u0642\u0645 \u0627\u0644\u0647\u0648\u064a\u0629' not found or not filled correctly.
+2025-10-30 17:33:13,658 - WARNING - \u26a0\ufe0f Field 'File No / \u0631\u0642\u0645 \u0627\u0644\u0645\u0644\u0641' not found or not filled correctly.
+2025-10-30 17:33:13,659 - WARNING - \u26a0\ufe0f Field 'Passport No / \u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0632' not found or not filled correctly.
+2025-10-30 17:33:13,660 - WARNING - \u26a0\ufe0f Field 'Name / \u0627\u0644\u0627\u0633\u0645' not found or not filled correctly.
+2025-10-30 17:33:13,660 - WARNING - \u26a0\ufe0f Field 'Profession / \u0627\u0644\u0645\u0647\u0646\u0629' not found or not filled correctly.
+2025-10-30 17:33:13,661 - WARNING - \u26a0\ufe0f Field 'Employer / \u0635\u0627\u062d\u0628 \u0627\u0644\u0639\u0645\u0644' not found or not filled correctly.
+2025-10-30 17:33:13,661 - WARNING - \u26a0\ufe0f Field 'Place of Issue / \u062c\u0647\u0629 \u0627\u0644\u0625\u0635\u062f\u0627\u0631' not found or not filled correctly.
+2025-10-30 17:33:13,662 - WARNING - \u26a0\ufe0f Field 'Issue Date / \u062a\u0627\u0631\u064a\u062e \u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0625\u0642\u0627\u0645\u0629' not found or not filled correctly.
+2025-10-30 17:33:13,662 - WARNING - \u26a0\ufe0f Field 'Expiry Date / \u062a\u0627\u0631\u064a\u062e \u0625\u0646\u062a\u0647\u0627\u0621 \u0627\u0644\u0625\u0642\u0627\u0645\u0629' not found or not filled correctly.
+2025-10-30 17:33:13,663 - WARNING - \u26a0\ufe0f Field 'Country / \u0627\u0644\u062f\u0648\u0644\u0629' not found or not filled correctly.
+2025-10-30 17:33:13,663 - WARNING - \u26a0\ufe0f Field 'Type / \u0646\u0648\u0639 \u0627\u0644\u0625\u0642\u0627\u0645\u0629' not found or not filled correctly.
+2025-10-30 17:33:13,663 - INFO - \U0001f3c1 Process completed in 16.71 seconds total.
+2025-10-30 17:33:13,684 - INFO - \U0001fab5 Log file saved to d:\AI Projects\passport_extraction\passport\fill_log_20251030_173256.log
+2025-10-30 17:55:25,755 - INFO - === Starting HTML Fill Process ===
+2025-10-30 17:55:25,757 - INFO - Loaded HTML: D:\AI Projects\passport_extraction\passport\output_from_pymupdf.html
+2025-10-30 17:55:25,758 - INFO - Loaded JSON: D:\AI Projects\passport_extraction\passport\VISA_61734560.json
+2025-10-30 17:55:25,759 - INFO - Prompt prepared for LLM processing...
+2025-10-30 17:55:40,237 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2025-10-30 17:55:40,239 - INFO - LLM successfully filled the HTML form.
+2025-10-30 17:55:40,240 - INFO - Filled HTML saved to filled_passport_form.html
+2025-10-30 17:55:40,241 - INFO - === JSON Key Summary ===
+2025-10-30 17:55:40,242 - INFO - ID Number / \u0631\u0642\u0645 \u0627\u0644\u0647\u0648\u064a\u0629 \u2192 784199787632597
+2025-10-30 17:55:40,242 - INFO - File No / \u0631\u0642\u0645 \u0627\u0644\u0645\u0644\u0641 \u2192 201/2023/7/663922
+2025-10-30 17:55:40,243 - INFO - Passport No / \u0631\u0642\u0645 \u0627\u0644\u062c\u0648\u0627\u0632 \u2192 VT1337002
+2025-10-30 17:55:40,244 - INFO - Name / \u0627\u0644\u0627\u0633\u0645 \u2192 MUHAMMAD AMIR IQBAL MUHAMMAD I / \u0645\u062d\u0645\u062f \u0627\u0645\u064a\u0631 \u0627\u0642\u0628\u0627\u0644 \u0645\u062d\u0645\u062f \u0627\u0642\u0628\u0627\u0644
+2025-10-30 17:55:40,245 - INFO - Profession / \u0627\u0644\u0645\u0647\u0646\u0629 \u2192 PARTNER / \u0634\u0631\u064a\u0643
+2025-10-30 17:55:40,245 - INFO - Employer / \u0635\u0627\u062d\u0628 \u0627\u0644\u0639\u0645\u0644 \u2192 H S P INTERNATIONAL FOODSTUFF TRADING L.L.C / \u0627\u062a\u0634 \u0627\u0633 \u0628\u064a \u0627\u0646\u062a\u0631\u0646\u0627\u0634\u0648\u0646\u0627\u0644 \u0644\u062a\u062c\u0627\u0631\u0629 \u0627\u0644\u0645\u0648\u0627\u062f \u0627\u0644\u063a\u0630\u0627\u0626\u064a\u0629 \u0634 \u0630 \u0645 \u0645
+2025-10-30 17:55:40,246 - INFO - Place of Issue / \u062c\u0647\u0629 \u0627\u0644\u0625\u0635\u062f\u0627\u0631 \u2192 \u062f\u0628\u064a
+2025-10-30 17:55:40,247 - INFO - Issue Date / \u062a\u0627\u0631\u064a\u062e \u0625\u0635\u062f\u0627\u0631 \u0627\u0644\u0625\u0642\u0627\u0645\u0629 \u2192 15/11/2023
+2025-10-30 17:55:40,248 - INFO - Expiry Date / \u062a\u0627\u0631\u064a\u062e \u0625\u0646\u062a\u0647\u0627\u0621 \u0627\u0644\u0625\u0642\u0627\u0645\u0629 \u2192 14/11/2025
+2025-10-30 17:55:40,249 - INFO - Country / \u0627\u0644\u062f\u0648\u0644\u0629 \u2192 UNITED ARAB EMIRATES / \u062f\u0648\u0644\u0629 \u0627\u0644\u0625\u0645\u0627\u0631\u0627\u062a \u0627\u0644\u0639\u0631\u0628\u064a\u0629 \u0627\u0644\u0645\u062a\u062d\u062f\u0629
+2025-10-30 17:55:40,250 - INFO - Type / \u0646\u0648\u0639 \u0627\u0644\u0625\u0642\u0627\u0645\u0629 \u2192 RESIDENCE / \u0625\u0642\u0627\u0645\u0629
+2025-10-30 17:55:40,250 - INFO - === Process Completed Successfully ===

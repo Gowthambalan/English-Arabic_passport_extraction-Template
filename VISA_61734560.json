@@ -1,0 +1,16 @@
+{
+  "file": "D:\\AI Projects\\passport_extraction\\passport\\VISA_61734560.pdf",
+  "extracted_data": {
+    "ID Number / رقم الهوية": "784199787632597",
+    "File No / رقم الملف": "201/2023/7/663922",
+    "Passport No / رقم الجواز": "VT1337002",
+    "Name / الاسم": "MUHAMMAD AMIR IQBAL / محمد امير اقبال",
+    "Profession / المهنة": "PARTNER / شريك",
+    "Employer / صاحب العمل": "H S P INTERNATIONAL FOODSTUFF TRADING L.L.C / اتش اس بي انترناشونال لتجارة المواد الغذائية ش ذ م م",
+    "Place of Issue / جهة الإصدار": "دبي",
+    "Issue Date / تاريخ إصدار الإقامة": "15/11/2023",
+    "Expiry Date / تاريخ إنتهاء الإقامة": "14/11/2025",
+    "Country / الدولة": "UNITED ARAB EMIRATES / دولة الإمارات العربية المتحدة",
+    "Type / نوع الإقامة": "RESIDENCE / إقامة"
+  }
+}
